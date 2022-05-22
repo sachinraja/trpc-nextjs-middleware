@@ -1,22 +1,29 @@
 {
-  "name": "nextjs-middleware",
-  "version": "0.1.0",
+  "name": "trpc-nextjs-middleware",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "dprint fmt"
   },
   "dependencies": {
+    "@faker-js/faker": "6.3.1",
+    "@trpc/client": "10.0.0-alpha.22",
+    "@trpc/next": "10.0.0-alpha.22",
+    "@trpc/react": "10.0.0-alpha.22",
+    "@trpc/server": "10.0.0-alpha.22",
     "next": "12.1.6",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-query": "3.39.0"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.4",
+    "dprint": "0.29.0",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "typescript": "4.6.4"
