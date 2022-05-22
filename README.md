@@ -1,5 +1,7 @@
 # [tRPC](https://trpc.io/) + [Next.js Middleware](https://nextjs.org/docs/advanced-features/middleware)
 
+File of interest: [`/src/pages/api/trpc/_middleware.ts`](/src/pages/api/trpc/_middleware.ts)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
